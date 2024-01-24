@@ -1,0 +1,55 @@
+<mxfile host="Electron" modified="2023-11-22T07:19:50.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Tsba3HO2LLHYRsvfnP6a" version="22.0.3" type="device">
+  <diagram name="第 1 页" id="M4DfdoPgp2oRHHlIY6Bo">
+    <mxGraphModel dx="1818" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="JngxCQ7HQzUOvknGmuSj-1" target="JngxCQ7HQzUOvknGmuSj-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="JngxCQ7HQzUOvknGmuSj-1" target="JngxCQ7HQzUOvknGmuSj-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-1" value="服务员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-171" y="182" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-6" value="" style="swimlane;startSize=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-107" y="-102" width="636" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-8" value="配餐" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="JngxCQ7HQzUOvknGmuSj-6" vertex="1">
+          <mxGeometry x="56" y="103" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-9" value="查询分析" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="JngxCQ7HQzUOvknGmuSj-6" vertex="1">
+          <mxGeometry x="56" y="488" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-10" value="登录" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="JngxCQ7HQzUOvknGmuSj-6" vertex="1">
+          <mxGeometry x="390" y="285" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-11" value="处理点餐记录(FIFO)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="JngxCQ7HQzUOvknGmuSj-6" vertex="1">
+          <mxGeometry x="381" y="103" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="JngxCQ7HQzUOvknGmuSj-6" source="JngxCQ7HQzUOvknGmuSj-8" target="JngxCQ7HQzUOvknGmuSj-11" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="282" y="310" as="sourcePoint" />
+            <mxPoint x="442" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-15" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="JngxCQ7HQzUOvknGmuSj-6" source="JngxCQ7HQzUOvknGmuSj-8" target="JngxCQ7HQzUOvknGmuSj-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="206" y="148" as="sourcePoint" />
+            <mxPoint x="391" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JngxCQ7HQzUOvknGmuSj-16" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="JngxCQ7HQzUOvknGmuSj-6" source="JngxCQ7HQzUOvknGmuSj-9" target="JngxCQ7HQzUOvknGmuSj-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="216" y="158" as="sourcePoint" />
+            <mxPoint x="386" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EAkNAgNrwWFFwN6g7TEW-1" value="智慧食堂系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-82" width="114" height="31" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

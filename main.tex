@@ -1,0 +1,36 @@
+\PassOptionsToPackage{quiet}{fontspec}
+\documentclass[UTF8, 12pt]{ctexart}
+
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{float}
+\usepackage{subfiles}
+\usepackage{indentfirst}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\graphicspath{{figures/}}
+\setlength{\parindent}{2em}
+\geometry{papersize={21cm,29.7cm}}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{《面向对象分析与设计》课程设计: 智慧食堂}
+\author{  }
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+
+  \subfile{sections/需求说明}
+  \subfile{sections/用例分析}
+  \subfile{sections/静态建模}
+  \subfile{sections/动态建模.tex}
+\end{document}

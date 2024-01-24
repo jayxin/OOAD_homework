@@ -1,0 +1,74 @@
+<mxfile host="Electron" modified="2024-01-13T05:32:40.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="i-7frmbLU8plZUR1yc8M" version="22.0.3" type="device">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="1418" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JR2mka63wMSdyvAUE_mT-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="JR2mka63wMSdyvAUE_mT-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-7" value="待机" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-8" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="JR2mka63wMSdyvAUE_mT-7" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-9" value="显示配餐" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" source="JR2mka63wMSdyvAUE_mT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-11" value="打印订单" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-12" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" parent="1" source="JR2mka63wMSdyvAUE_mT-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="340" />
+              <mxPoint x="281" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-17" value="关机" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="JR2mka63wMSdyvAUE_mT-12">
+          <mxGeometry x="-0.2789" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-13" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="265" y="370" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="JR2mka63wMSdyvAUE_mT-11" target="JR2mka63wMSdyvAUE_mT-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="380" as="targetPoint" />
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="290" />
+              <mxPoint x="370" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JR2mka63wMSdyvAUE_mT-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JR2mka63wMSdyvAUE_mT-11" target="JR2mka63wMSdyvAUE_mT-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="380" as="targetPoint" />
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="290" />
+              <mxPoint x="400" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

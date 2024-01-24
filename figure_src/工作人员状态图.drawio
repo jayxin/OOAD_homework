@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2024-01-13T05:19:11.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="gK9DvJY9uxOW1Fo52TKX" version="22.0.3" type="device">
+  <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
+    <mxGraphModel dx="1418" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="145" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-3" value="配餐" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="pmYGSJokiSy-LCV7AO8Q-3" parent="1" target="pmYGSJokiSy-LCV7AO8Q-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-8" value="是否有订单" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-9" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="pmYGSJokiSy-LCV7AO8Q-8" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-10" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="pmYGSJokiSy-LCV7AO8Q-8" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="pmYGSJokiSy-LCV7AO8Q-1" target="pmYGSJokiSy-LCV7AO8Q-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <mxPoint x="560" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-12" value="等待订单" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="460" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="pmYGSJokiSy-LCV7AO8Q-12" parent="1" target="pmYGSJokiSy-LCV7AO8Q-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="190" />
+              <mxPoint x="420" y="190" />
+              <mxPoint x="420" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-14" value="配餐完成" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;" edge="1" source="pmYGSJokiSy-LCV7AO8Q-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-17" value="下班" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="pmYGSJokiSy-LCV7AO8Q-15">
+          <mxGeometry x="0.1071" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-16" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="305" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmYGSJokiSy-LCV7AO8Q-14" target="pmYGSJokiSy-LCV7AO8Q-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <mxPoint x="560" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-21" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;fontSize=12;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pmYGSJokiSy-LCV7AO8Q-12" target="pmYGSJokiSy-LCV7AO8Q-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="530" as="targetPoint" />
+            <mxPoint x="560" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmYGSJokiSy-LCV7AO8Q-22" value="下班" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="pmYGSJokiSy-LCV7AO8Q-21">
+          <mxGeometry x="-0.2043" y="-30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
